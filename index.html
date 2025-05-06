@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CodeRise Portal</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body class="home">
+  <div class="particles"></div> <!-- For floating particles effect -->
+  <div class="terminal-box fade-in">
+    <p class="terminal-text">> Initializing access to <span class="highlight">CodeRise</span>...</p>
+    <p style="color: #ccc; font-size: 1rem; margin-bottom: 20px;">
+      Welcome to CodeRise — a hub for passionate developers and curious coders.  
+      Connect, learn, and grow with our interactive coding sessions, hackathons, and real-world projects.
+    </p>
+    <button id="launchButton" class="terminal-button">ENTER 🚪</button>
+  </div>
+
+  <script>
+    document.getElementById("launchButton").addEventListener("click", function() {
+      window.location.href = "landing.html";
+    });
+  </script>
+</body>
+</html>
